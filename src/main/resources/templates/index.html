@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" type="text/css"
+	href="webjars/bootstrap/3.2.0/css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/styles.css" />
+
+<title>Getting Started: Serving Web Content</title>
+</head>
+<body>
+	
+	<header th:replace="fragments/_header"></header>
+	
+	<div class="container">
+		<div id="Layer1"><img th:src="@{images/Layer1.png}"></div>
+		<div id="manonlaptop"><img th:src="@{images/manonlaptop.png}"></div>
+		<div id="arabman"><img th:src="@{images/arabman.png}"></div>
+		<div id="manlaptopruwklein"><img th:src="@{images/manlaptopruwklein.png}"></div>
+		<div id="layer_21"><img th:src="@{images/layer_21.png}"></div>
+		<div id="layer_1994"><img th:src="@{images/layer_1994.png}"></div>
+		<div id="layer_19"><img th:src="@{images/layer_19.png}"></div>
+		<div id="Layer4copy"><img th:src="@{images/Layer4copy.png}"></div>
+		<div id="layer_20"><a th:href="@{#}"><img th:src="@{images/layer_20.png}"></a></div>
+		<div id="Layer1copy2"><img src="images/Layer1copy2.png"></div>
+		<div id="layer_22"><img src="images/layer_22.png"></div>
+	</div>
+
+	<footer id="footer">
+		<div th:replace="fragments/_footer"></div>
+	</footer>
+
+	<!-- include javascript -->
+	<script type="text/javascript"
+		src="/webjars/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="/webjars/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>

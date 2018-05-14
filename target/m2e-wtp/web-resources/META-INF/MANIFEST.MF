@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: bisSite
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: ahmedabasy
+Implementation-Vendor-Id: com.bis
+Build-Jdk: 1.8.0_102
+Implementation-URL: https://projects.spring.io/spring-boot/spring-boot
+ -starter-parent/bisSite/
+Created-By: Maven Integration for Eclipse
+

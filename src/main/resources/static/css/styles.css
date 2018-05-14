@@ -1,0 +1,507 @@
+ body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1280px;
+	 height: 1280px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #Layer1 
+{ 
+	 left: -150px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1570px;
+	 height: 461px;
+	 z-index:1;
+} 
+
+ #Layer1copy2 
+{ 
+	 left: -80px; 
+	 top: 671px; 
+	 position: absolute; 
+	 width: 1440px;
+	 height: 242px;
+	 z-index:2;
+} 
+
+ #footer 
+{ 
+	 left: -80px; 
+	 top: 1196px; 
+	 position: absolute; 
+	 width: 1440px;
+	 height: 273px;
+	 z-index:3;
+} 
+
+ #Layer1copy3 
+{ 
+	 left: -80px; 
+	 top: 923px; 
+	 position: absolute; 
+	 width: 1440px;
+	 height: 273px;
+	 z-index:4;
+} 
+
+ #Layer1copy 
+{ 
+	 left: -80px; 
+	 top: 419px; 
+	 position: absolute; 
+	 width: 1440px;
+	 height: 282px;
+	 z-index:5;
+} 
+
+ #Assets 
+{ 
+	 left: 888px; 
+	 top: 645px; 
+	 position: absolute; 
+	 width: 94px;
+	 height: 29px;
+	 z-index:6;
+} 
+
+ #layer_7 
+{ 
+	 left: 630px; 
+	 top: 645px; 
+	 position: absolute; 
+	 width: 206px;
+	 height: 28px;
+	 z-index:7;
+} 
+
+ #arabman 
+{ 
+	 left: -65px; 
+	 top: 121px; 
+	 position: absolute; 
+	 width: 462px;
+	 height: 299px;
+	 z-index:8;
+} 
+
+ #ChequePrinter 
+{ 
+	 left: 485px; 
+	 top: 644px; 
+	 position: absolute; 
+	 width: 96px;
+	 height: 31px;
+	 z-index:9;
+} 
+
+ #SuperDoc 
+{ 
+	 left: 292px; 
+	 top: 643px; 
+	 position: absolute; 
+	 width: 104px;
+	 height: 32px;
+	 z-index:10;
+} 
+
+ #Layer3 
+{ 
+	 left: 1px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1279px;
+	 height: 79px;
+	 z-index:11;
+} 
+
+ #Layer4 
+{ 
+	 left: 1031px; 
+	 top: 42px; 
+	 position: absolute; 
+	 width: 81px;
+	 height: 37px;
+	 z-index:12;
+} 
+
+ #Layer4copy 
+{ 
+	 left: 569px; 
+	 top: 354px; 
+	 position: absolute; 
+	 width: 115px;
+	 height: 33px;
+	 z-index:13;
+} 
+
+ #manlaptopruwklein 
+{ 
+	 left: 512px; 
+	 top: 75px; 
+	 position: absolute; 
+	 width: 237px;
+	 height: 344px;
+	 z-index:14;
+} 
+
+ #Layer19 
+{ 
+	 left: 1005px; 
+	 top: 492px; 
+	 position: absolute; 
+	 width: 68px;
+	 height: 154px;
+	 z-index:15;
+} 
+
+ #Layer19copy 
+{ 
+	 left: 203px; 
+	 top: 492px; 
+	 position: absolute; 
+	 width: 68px;
+	 height: 154px;
+	 z-index:16;
+} 
+
+ #manonlaptop 
+{ 
+	 left: 850px; 
+	 top: 105px; 
+	 position: absolute; 
+	 width: 408px;
+	 height: 316px;
+	 z-index:17;
+} 
+
+ #layer_1994 
+{ 
+	 left: 538px; 
+	 top: 194px; 
+	 position: absolute; 
+	 width: 210px;
+	 height: 26px;
+	 z-index:18;
+} 
+
+ #layer_19 
+{ 
+	 left: 177px; 
+	 top: 264px; 
+	 position: absolute; 
+	 width: 927px;
+	 height: 46px;
+	 z-index:19;
+} 
+
+ #layer_20 
+{ 
+	 left: 574px; 
+	 top: 363px; 
+	 position: absolute; 
+	 width: 106px;
+	 height: 18px;
+	 z-index:20;
+} 
+
+ #layer_21 
+{ 
+	 left: 382px; 
+	 top: 135px; 
+	 position: absolute; 
+	 width: 506px;
+	 height: 32px;
+	 z-index:21;
+} 
+
+ #layer_22 
+{ 
+	 left: 581px; 
+	 top: 442px; 
+	 position: absolute; 
+	 width: 102px;
+	 height: 37px;
+	 z-index:22;
+} 
+
+ #layer_23 
+{ 
+	 left: 593px; 
+	 top: 719px; 
+	 position: absolute; 
+	 width: 81px;
+	 height: 33px;
+	 z-index:23;
+} 
+
+ #layer_24 
+{ 
+	 left: 582px; 
+	 top: 943px; 
+	 position: absolute; 
+	 width: 106px;
+	 height: 32px;
+	 z-index:24;
+} 
+
+ #layer_25 
+{ 
+	 left: 953px; 
+	 top: 968px; 
+	 position: absolute; 
+	 width: 126px;
+	 height: 51px;
+	 z-index:25;
+} 
+
+ #layer_26 
+{ 
+	 left: 607px; 
+	 top: 1031px; 
+	 position: absolute; 
+	 width: 470px;
+	 height: 67px;
+	 z-index:26;
+} 
+
+ #Layer11 
+{ 
+	 left: 425px; 
+	 top: 1148px; 
+	 position: absolute; 
+	 width: 40px;
+	 height: 29px;
+	 z-index:27;
+} 
+
+ #salesbissoftcomsuppo 
+{ 
+	 left: 478px; 
+	 top: 1155px; 
+	 position: absolute; 
+	 width: 381px;
+	 height: 18px;
+	 z-index:28;
+} 
+
+ #Layer16 
+{ 
+	 left: 465px; 
+	 top: 499px; 
+	 position: absolute; 
+	 width: 137px;
+	 height: 137px;
+	 z-index:29;
+} 
+
+ #Layer17 
+{ 
+	 left: 276px; 
+	 top: 500px; 
+	 position: absolute; 
+	 width: 135px;
+	 height: 135px;
+	 z-index:30;
+} 
+
+ #Layer15 
+{ 
+	 left: 664px; 
+	 top: 499px; 
+	 position: absolute; 
+	 width: 136px;
+	 height: 136px;
+	 z-index:31;
+} 
+
+ #Layer14 
+{ 
+	 left: 863px; 
+	 top: 499px; 
+	 position: absolute; 
+	 width: 136px;
+	 height: 136px;
+	 z-index:32;
+} 
+
+ #layer_33 
+{ 
+	 left: 916px; 
+	 top: 1113px; 
+	 position: absolute; 
+	 width: 161px;
+	 height: 22px;
+	 z-index:33;
+} 
+
+ #layer_34 
+{ 
+	 left: 589px; 
+	 top: 1231px; 
+	 position: absolute; 
+	 width: 232px;
+	 height: 22px;
+	 z-index:34;
+} 
+
+ #Layer6 
+{ 
+	 left: 733px; 
+	 top: 749px; 
+	 position: absolute; 
+	 width: 115px;
+	 height: 116px;
+	 z-index:35;
+} 
+
+ #layer_36 
+{ 
+	 left: 717px; 
+	 top: 878px; 
+	 position: absolute; 
+	 width: 150px;
+	 height: 17px;
+	 z-index:36;
+} 
+
+ #Layer6copy 
+{ 
+	 left: 424px; 
+	 top: 749px; 
+	 position: absolute; 
+	 width: 115px;
+	 height: 116px;
+	 z-index:37;
+} 
+
+ #layer_38 
+{ 
+	 left: 442px; 
+	 top: 878px; 
+	 position: absolute; 
+	 width: 79px;
+	 height: 19px;
+	 z-index:38;
+} 
+
+ #Layer7 
+{ 
+	 left: 752px; 
+	 top: 774px; 
+	 position: absolute; 
+	 width: 76px;
+	 height: 67px;
+	 z-index:39;
+} 
+
+ #layer_40 
+{ 
+	 left: 1040px; 
+	 top: 50px; 
+	 position: absolute; 
+	 width: 64px;
+	 height: 21px;
+	 z-index:40;
+} 
+
+ #layer_41 
+{ 
+	 left: 876px; 
+	 top: 48px; 
+	 position: absolute; 
+	 width: 59px;
+	 height: 24px;
+	 z-index:41;
+} 
+
+ #layer_42 
+{ 
+	 left: 801px; 
+	 top: 47px; 
+	 position: absolute; 
+	 width: 51px;
+	 height: 22px;
+	 z-index:42;
+} 
+
+ #layer_43 
+{ 
+	 left: 626px; 
+	 top: 48px; 
+	 position: absolute; 
+	 width: 151px;
+	 height: 21px;
+	 z-index:43;
+} 
+
+ #layer_44 
+{ 
+	 left: 496px; 
+	 top: 48px; 
+	 position: absolute; 
+	 width: 107px;
+	 height: 24px;
+	 z-index:44;
+} 
+
+ #layer_45 
+{ 
+	 left: 404px; 
+	 top: 48px; 
+	 position: absolute; 
+	 width: 67px;
+	 height: 21px;
+	 z-index:45;
+} 
+
+ #layer_46 
+{ 
+	 left: 955px; 
+	 top: 50px; 
+	 position: absolute; 
+	 width: 61px;
+	 height: 16px;
+	 z-index:46;
+} 
+
+ #slogo 
+{ 
+	 left: 162px; 
+	 top: 4px; 
+	 position: absolute; 
+	 width: 106px;
+	 height: 61px;
+	 z-index:47;
+} 
+
+ #slogocopy 
+{ 
+	 left: 505px; 
+	 top: 1218px; 
+	 position: absolute; 
+	 width: 72px;
+	 height: 44px;
+	 z-index:48;
+} 
+
+ #Layer8 
+{ 
+	 left: 445px; 
+	 top: 778px; 
+	 position: absolute; 
+	 width: 68px;
+	 height: 67px;
+	 z-index:49;
+} 
