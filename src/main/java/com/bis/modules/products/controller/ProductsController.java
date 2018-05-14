@@ -33,7 +33,7 @@ public class ProductsController {
 		return new ResponseEntity<List<Products>>(productsList, HttpStatus.OK);
 	}
 	
-	@PostMapping("addProduct") // still working on add error
+	@PostMapping("addProduct") // still working on add error - we must solve this error
 	public void addProduct(@RequestBody Products products) {
 		productService.save(products);
 	}
